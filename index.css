@@ -1,0 +1,216 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: white;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.7), url(./gambar/pemandangan.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .stiker {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100%;
+  margin-top: 80px;
+  overflow: hidden;
+}
+.container .stiker img {
+  width: 100%;
+}
+.container .paragraf {
+  margin-top: 0px;
+  text-align: center;
+}
+.container footer {
+  margin-top: 180px;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px white solid;
+}
+.container footer li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(248, 247, 247, 0.4);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container footer li a img {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 50px;
+}
+#container1{
+  background-image: url(https://i.postimg.cc/tgxB0tNn/pemandangan11.jpg);
+}
+#container1 h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  animation: text 2s 1;
+}
+#container1 p {
+  margin-bottom: 20px;
+}
+#container1 .stiker{
+ 
+  /* animation: text 2s; */
+}
+#container1 footer{
+  /* animation: text 2s; */
+}
+
+#counter2{
+  background-image: url(https://i.postimg.cc/FFVN50T6/jalan22.jpg);
+  justify-content: space-between;
+
+}
+#counter2 .stiker{
+  margin-top: -20px;
+  animation: text 2s;
+}
+#counter2 .group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: space-around;
+  height: 400px;
+  margin-top: 20px;
+}
+#counter2 .paragraf{
+
+  margin-bottom: 0px;
+} 
+#counter2 footer{
+  margin-bottom: 40px;
+}
+
+#counter3{
+  justify-content:space-between;
+  background-image: url(https://i.postimg.cc/Dzfbghyz/unnamed1.jpg); 
+
+   
+}
+
+
+
+#counter3 .paraf {
+  width: 300px;
+  text-align: left;
+ 
+
+}
+#counter3 .paragraf{
+   /* border: 1px white solid; */
+  margin-top: 200px;
+
+  
+
+
+
+
+  
+}
+
+#counter3 footer{
+   border: 2px white solid;
+  margin-bottom: 30px;
+  
+}
+#counter4{
+  background-image: url(https://i.postimg.cc/MTm6rMP2/1111jpg.jpg);
+  display: flex;
+  align-items: center;
+
+}
+#counter4 .stiker img{
+  height: 100%;
+}
+#counter4 h2 {
+  text-align: center;
+}
+#counter4 .groupbtn {
+  width: 250px;
+  display: flex;
+  margin-bottom: 150px;
+  justify-content: space-around;
+}
+#counter4 .groupbtn .terima {
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#counter4 .groupbtn .terima a {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+#counter4 .groupbtn .tolak {
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#counter4 .groupbtn .tolak a {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+#counter5{
+  background-image: url(https://i.postimg.cc/hvvr3xDf/d2bb887282c6115f52c57eb31db243561.jpg);
+}
+
+#counter5 .stiker {
+  margin-top: -20px;
+
+}
+#counter5 .paragraf{
+  margin-bottom: 100px;
+}
+
+
+@keyframes text {
+  0% {
+    margin-bottom: 20px;
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+  
+}
+  @keyframes text2 {
+  0% {
+    margin-bottom: 20px;
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
