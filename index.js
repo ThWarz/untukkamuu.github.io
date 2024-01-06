@@ -160,9 +160,9 @@ const container6p1 = container6p[0]
 const container6p2 = container6p[1]
 let text1 = 'Hmmm , OK '
 let text1cn = 0 ; 
-let text2dd = 'adadadasdofjgojsdjogsjo'
+let text2dd = '😓'
 let text2cn = 0 ;
-let text3 = 'iadafafhnuashnfiuhaf'
+let text3 = 'okehh dehh, Terima kasih'
 let text3cn = 0;
 
 function tolak(){
